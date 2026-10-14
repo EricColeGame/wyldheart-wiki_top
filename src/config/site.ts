@@ -7,11 +7,13 @@ export interface SiteConfig {
   url: string;
   supportEmail: string;
   gameUrl?: string;
+  websiteUrl?: string;
   heroVideoId?: string;
   social?: {
     discord?: string;
     youtube?: string;
     twitter?: string;
+    reddit?: string;
     tiktok?: string;
   };
   locales: readonly string[];
@@ -27,11 +29,14 @@ export const siteConfig: SiteConfig = {
   url: process.env.NEXT_PUBLIC_SITE_URL || "https://wyldheart-wiki.top",
   supportEmail: `support@${new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://wyldheart-wiki.top").hostname.replace(/^www\./, "")}`,
   gameUrl: "https://store.steampowered.com/app/3642910/Wyldheart/",
+  websiteUrl: "https://wyldheartgame.com",
   heroVideoId: "SGIl5UuRpxg", // Wyldheart | Official Reveal Trailer (DEMO OUT NOW!)
   social: {
     discord: "https://discord.gg/wyldheart",
     youtube: "https://www.youtube.com/@wyldheartgame",
     twitter: "https://x.com/wyldheartgame",
+    reddit: "https://www.reddit.com/r/wyldheartgame",
+    tiktok: "https://www.tiktok.com/@wyldheartgame",
   },
   locales: ["en", "es", "pt", "de", "fr"],
   defaultLocale: "en",

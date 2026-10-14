@@ -1,9 +1,9 @@
 {
   "site": {
-    "name": "My Seafood Stand Wiki",
-    "shortName": "My Seafood Stand",
-    "tagline": "Complete Guides, Codes, Recipes & Tier Lists",
-    "description": "Your ultimate guide to My Seafood Stand on Roblox! Explore active codes, seafood recipes, best upgrades, profit strategies, and progression guides.",
+    "name": "Wyldheart Wiki",
+    "shortName": "Wyldheart",
+    "tagline": "Builds, Skills, Co-op Guides & Dungeon Walkthroughs",
+    "description": "Fan-made Wyldheart wiki with co-op guides, character builds, skills, ancestries, weapons, crafting tips, dungeon walkthroughs, demo updates and release news.",
     "legalNotice": "Non-official fan wiki. Made by players, for players."
   },
   "nav": {
@@ -26,23 +26,24 @@
   },
   "home": {
     "meta": {
-      "title": "My Seafood Stand Wiki — Codes, Recipes, Upgrades & Guides",
-      "description": "Complete My Seafood Stand guide on Roblox with active working codes, all fish & recipes, best upgrades tier list, and fast cash tips."
+      "title": "Wyldheart Wiki - Builds, Skills & Co-op Guides",
+      "description": "Explore Wyldheart with co-op guides, character builds, skills, ancestries, weapons, crafting tips, dungeon walkthroughs, demo updates, and release news.",
+      "keywords": "Wyldheart, PC RPG, co-op guides, builds, skills, dungeons, crafting"
     },
     "hero": {
-      "eyebrow": "Fan-Made Community Wiki",
-      "title": "My Seafood Stand",
-      "description": "Master your restaurant in My Seafood Stand on Roblox. Access all active codes, complete fish & recipe catalog, optimal upgrades, and pro money-making strategies.",
+      "eyebrow": "Co-op Fantasy Action RPG",
+      "title": "Wyldheart Wiki",
+      "description": "Explore Wyldheart, a fantasy action RPG featuring solo adventures, up to four-player co-op, flexible character builds, dungeon exploration, crafting, and story-driven campaigns.",
       "stats": [
-        "All Codes",
-        "All Fish & Recipes",
-        "Upgrade Guides",
-        "Fast Cash Tips"
+        "4 Playable Ancestries",
+        "19 Character Backgrounds",
+        "50+ RPG Skills",
+        "1–4 Co-op Players"
       ],
-      "primaryCta": "Beginner Guide",
-      "secondaryCta": "Seafood Tier List",
-      "tertiaryCta": "Active Codes",
-      "videoLabel": "Official media"
+      "primaryCta": "Read the Beginner Guide",
+      "secondaryCta": "Play the Demo on Steam",
+      "tertiaryCta": "Wishlist on Epic Games",
+      "videoLabel": "Official Wyldheart trailer"
     },
     "updates": {
       "title": "Latest Updates",
@@ -342,10 +343,10 @@
       ]
     },
     "finalCta": {
-      "title": "Ready to Master My Seafood Stand?",
-      "description": "From your first steps in Fort Adams to endgame boss fights our community wiki has you covered with free, up-to-date guides.",
+      "title": "Ready to Master Wyldheart?",
+      "description": "From your first steps in Rivermere to endgame dungeon runs, our community wiki has you covered with free, up-to-date guides for solo and four-player co-op.",
       "primary": "Read the Beginner Guide",
-      "secondary": "Play on Roblox"
+      "secondary": "Play on Steam"
     }
   },
   "bosses": {
@@ -379,21 +380,23 @@
     "noGuidesAvailable": "No guides available yet. Check back soon!"
   },
   "footer": {
-    "aboutTitle": "My Seafood Stand Wiki",
-    "about": "My Seafood Stand Wiki is an independent fan-built guide hub covering progression routes, races, bosses, builds, and essential game knowledge for new and veteran players alike.",
+    "aboutTitle": "Wyldheart Wiki",
+    "about": "Wyldheart Wiki is an independent fan-built guide hub covering ancestries, backgrounds, skills, weapons, co-op builds, crafting, dungeon routes, and essential game knowledge for new and veteran players alike.",
     "quickLinks": "Quick Links",
     "guides": "Guides",
     "legal": "Legal",
-    "copyright": "2026 My Seafood Stand Wiki. Not affiliated with Midnight Continent or Roblox.",
-    "description": "Free Bleach-inspired fighting RPG on Roblox. 3 races, 130+ skills, Lv100 cap.",
-    "playGame": "Play My Seafood Stand",
+    "copyright": "2026 Wyldheart Wiki. Not affiliated with Wayfinder Studios or Curve Games.",
+    "description": "Co-op fantasy action RPG by Wayfinder Studios. 4 ancestries, 19 backgrounds, 50+ skills, 1–4 players.",
+    "playGame": "Play on Steam",
+    "officialWebsite": "Official Website",
     "officialDiscord": "Official Discord",
     "officialYoutube": "Official YouTube",
-    "vvBuilder": "VV Builder (Skill Planner)",
+    "officialReddit": "Official Reddit",
+    "officialX": "Official X",
     "beginnerGuide": "Beginner Guide",
-    "raceGuides": "Race Guides",
+    "raceGuides": "Ancestries & Races",
     "bossGuides": "Boss Guides",
-    "buildGuide": "Build Guide",
+    "buildGuide": "Skills & Builds",
     "privacyPolicy": "Privacy Policy",
     "termsOfService": "Terms of Service"
   }
