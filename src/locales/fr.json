@@ -1,1 +1,513 @@
-{}
+{
+  "site": {
+    "name": "Wiki Wyldheart",
+    "shortName": "Wyldheart",
+    "tagline": "Builds, compétences, guides coop & soluces de donjons",
+    "description": "Wiki Wyldheart créé par des fans : guides coop, builds de personnages, compétences, ascendances, armes, astuces de craft, soluces de donjons, actus de la démo et nouvelles de sortie.",
+    "legalNotice": "Wiki de fans non officiel. Fait par des joueurs, pour des joueurs."
+  },
+  "nav": {
+    "home": "Accueil",
+    "menu": "Menu",
+    "toggleTheme": "Changer de thème",
+    "guide": "Guide",
+    "characters": "Personnages",
+    "mechanics": "Mécaniques",
+    "modes": "Modes",
+    "platforms": "Plateformes",
+    "release": "Sortie",
+    "community": "Communauté"
+  },
+  "home": {
+    "meta": {
+      "title": "Wiki Wyldheart - Builds, compétences & guides coop",
+      "description": "Explorez Wyldheart avec des guides coop, des builds de personnages, des compétences, des ascendances, des armes, des astuces de craft, des soluces de donjons, les actus de la démo et les nouvelles de sortie.",
+      "keywords": "Wyldheart, RPG PC, guides coop, builds, compétences, donjons, craft"
+    },
+    "hero": {
+      "eyebrow": "RPG d'action fantastique en coop",
+      "title": "Wiki Wyldheart",
+      "description": "Explorez Wyldheart, un RPG d'action fantastique proposant des aventures solo, du coop jusqu'à quatre joueurs, des builds de personnages flexibles, l'exploration de donjons, du craft et des campagnes scénarisées.",
+      "stats": [
+        "4 ascendances jouables",
+        "19 historiques de personnage",
+        "50+ compétences RPG",
+        "1 à 4 joueurs en coop"
+      ],
+      "primaryCta": "Lire le guide du débutant",
+      "secondaryCta": "Jouer à la démo sur Steam",
+      "tertiaryCta": "Ajouter à la liste de souhaits sur Epic Games",
+      "videoLabel": "Bande-annonce officielle de Wyldheart"
+    },
+    "updates": {
+      "title": "Dernières actualités",
+      "browse": "Parcourir tous les guides",
+      "viewAll": "Tout voir"
+    },
+    "start": {
+      "eyebrow": "Commencez ici",
+      "title": "Votre aventure Wyldheart",
+      "cards": [
+        {
+          "number": "1",
+          "title": "Guide du débutant",
+          "description": "Découvrez la boucle d'ouverture de Wyldheart : créez un héros paysan, récupérez une relique de Caerwyn et survivez à votre premier donjon avec une bande d'amis."
+        },
+        {
+          "number": "2",
+          "title": "Choisir une ascendance",
+          "description": "Comparez les ascendances de Wyldheart Freefolk, Mossling, Grimhorn et Stonefolk, puis associez votre choix à l'un des 19 historiques de rôle."
+        },
+        {
+          "number": "3",
+          "title": "Planifier votre build",
+          "description": "Répartissez vos premiers points dans les cinq arbres de compétences sans classe de Wyldheart : Aventure, Survie, Exploration de donjon, Armement et Magie."
+        },
+        {
+          "number": "4",
+          "title": "Jouer avec des amis",
+          "description": "Lancez une campagne Wyldheart pour 1 à 4 joueurs avec du coop à entrée et sortie libres, des sauvegardes partagées dans le cloud, de l'XP de groupe et une difficulté qui s'adapte."
+        }
+      ]
+    },
+    "popular": {
+      "eyebrow": "Pages populaires",
+      "title": "Guides Wyldheart tendance",
+      "quickLinks": [
+        "Guide du débutant",
+        "Arbres de compétences",
+        "Guide coop",
+        "Date de sortie"
+      ],
+      "cards": [
+        {
+          "badge": "Débutant",
+          "title": "Guide du débutant",
+          "description": "Rôles, armes, arbres de compétences et les habitudes coop qui maintiennent une équipe de quatre en vie.",
+          "href": "/guide/wyldheart-beginner-guide"
+        },
+        {
+          "badge": "Populaire",
+          "title": "Ascendances & races",
+          "description": "Freefolk, Mossling, Grimhorn et Stonefolk comparés, plus 19 historiques autour desquels bâtir.",
+          "href": "/characters/wyldheart-races"
+        },
+        {
+          "badge": "Populaire",
+          "title": "Arbres de compétences & builds",
+          "description": "Comment les cinq arbres sans classe de Wyldheart se combinent en builds de mêlée, à distance et hybrides.",
+          "href": "/mechanics/wyldheart-skill-tree"
+        },
+        {
+          "badge": "Mis à jour",
+          "title": "Armes & combat",
+          "description": "Classes d'armes, changement en plein combat et l'association d'équipement qui couvre toutes les portées.",
+          "href": "/characters/wyldheart-weapons"
+        },
+        {
+          "badge": "Populaire",
+          "title": "Coop & multijoueur",
+          "description": "Sessions à entrée libre, sauvegardes partagées dans le cloud, XP de groupe et difficulté évolutive expliqués.",
+          "href": "/modes/wyldheart-co-op"
+        },
+        {
+          "badge": "Guide",
+          "title": "Craft & équipement",
+          "description": "Matériaux, la route du schéma de relique et les repas qui buffent toute l'équipe.",
+          "href": "/mechanics/wyldheart-crafting"
+        },
+        {
+          "badge": "Nouveau",
+          "title": "Guide de la démo",
+          "description": "Ce que couvre la démo limitée de Whisperwood et ce qu'elle réserve pour le lancement.",
+          "href": "/guide/wyldheart-demo"
+        },
+        {
+          "badge": "Mis à jour",
+          "title": "Date de sortie & feuille de route",
+          "description": "Bêta, accès anticipé et la fenêtre cible de la 1.0 en une seule chronologie.",
+          "href": "/release/wyldheart-roadmap"
+        },
+        {
+          "badge": "Populaire",
+          "title": "Construction de base",
+          "description": "Priorités de camp qui réduisent les allers-retours avant d'investir des matériaux dans l'extension.",
+          "href": "/mechanics/wyldheart-base-building"
+        }
+      ]
+    },
+    "aboutGame": {
+      "title": "Qu'est-ce que Wyldheart ?",
+      "paragraphs": [
+        "Wyldheart est un RPG d'action fantastique coopératif de Wayfinder Studios, édité en partenariat avec Curve Games. Il se déroule dans un monde mythique rustique imprégné du folklore féérique, et son accroche est rafraîchissante de non-héroïsme : vous n'êtes pas l'élu. Vous débutez comme un humble paysan jeté dans un donjon et chargé de récupérer l'une des anciennes reliques de Caerwyn pour protéger votre village.",
+        "Wyldheart abandonne les classes fixes. Vous composez un héros à partir de trois ascendances, 19 historiques de rôle et 50+ compétences réparties sur cinq arbres sans classe, puis vous alternez en plein combat entre armes de mêlée, armes à distance, sorts et concoctions à lancer. Jouez en solo ou jusqu'à quatre joueurs en coop à entrée libre avec sauvegardes partagées dans le cloud, et essayez la démo limitée dans la région de Whisperwood pendant que la date de sortie complète reste à annoncer."
+      ],
+      "stats": [
+        {
+          "label": "Développeur",
+          "value": "Wayfinder Studios"
+        },
+        {
+          "label": "Éditeur",
+          "value": "Curve Games"
+        },
+        {
+          "label": "Plateforme",
+          "value": "PC (Steam, Epic)"
+        },
+        {
+          "label": "Genre",
+          "value": "RPG fantastique coop"
+        },
+        {
+          "label": "Joueurs",
+          "value": "1 à 4 en coop en ligne"
+        },
+        {
+          "label": "Arbres de compétences",
+          "value": "5 sans classe"
+        },
+        {
+          "label": "Compétences RPG",
+          "value": "50+"
+        },
+        {
+          "label": "Historiques",
+          "value": "19"
+        }
+      ],
+      "cta": "Explorer tous les guides"
+    },
+    "explore": {
+      "title": "Explorer le wiki Wyldheart",
+      "description": "Parcourez les systèmes de Wyldheart module par module : bases du débutant, builds sans classe, ascendances, armes, donjons, coop, craft et actus de la démo.",
+      "modules": [
+        {
+          "order": 1,
+          "name": "Guide du débutant Wyldheart",
+          "description": "Lancez une nouvelle campagne Wyldheart : créez un héros paysan, choisissez une ascendance et un historique, apprenez l'alternance de combat et survivez à votre première incursion en donjon.",
+          "href": "/guide/wyldheart-beginner-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Créez un héros Wyldheart parmi trois ascendances et 19 historiques de rôle"
+            },
+            {
+              "label": "2",
+              "detail": "Apprenez le rythme du combat et alternez mêlée, distance, sorts et concoctions en plein combat"
+            },
+            {
+              "label": "3",
+              "detail": "Placez vos premiers points dans un arbre de dégâts avant d'ajouter un arbre de soutien"
+            },
+            {
+              "label": "4",
+              "detail": "Terminez le donjon de la démo Whisperwood avec une équipe coordonnée"
+            },
+            {
+              "label": "5",
+              "detail": "Préparez-vous entre les runs en récoltant des matériaux, cuisinant des repas et améliorant l'équipement"
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Builds et arbres de compétences Wyldheart",
+          "description": "Planifiez un build Wyldheart autour de cinq arbres de compétences sans classe. Armement et Magie portent vos dégâts, tandis qu'Aventure, Survie et Exploration de donjon rendent une campagne de dix heures durable.",
+          "href": "/mechanics/wyldheart-skill-tree",
+          "displayType": "tier-grid",
+          "highlights": [
+            {
+              "label": "S",
+              "detail": "Armement - techniques de mêlée et à distance qui augmentent vos dégâts principaux"
+            },
+            {
+              "label": "S",
+              "detail": "Magie - burst de sorts, pression à distance et utilité pour les builds hybrides"
+            },
+            {
+              "label": "A",
+              "detail": "Aventure - passifs d'exploration et de quête qui portent dans chaque combat"
+            },
+            {
+              "label": "B",
+              "detail": "Exploration de donjon - ruines, pièges et traversée des donjons pour arriver préparé"
+            },
+            {
+              "label": "C",
+              "detail": "Survie - récolte, cuisine et endurance qui maintiennent l'équipe debout"
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Ascendances et historiques Wyldheart",
+          "description": "Comparez les ascendances jouables de Wyldheart et voyez comment les 19 historiques de rôle façonnent l'ambiance et les options de départ sans vous priver d'une arme ou d'un arbre de compétences.",
+          "href": "/characters/wyldheart-races",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "Freefolk",
+              "detail": "La base fantastique familière - un arc classique d'outsider devenu héros"
+            },
+            {
+              "label": "Mossling",
+              "detail": "Petit et curieux, plus proche du versant folklore féérique de Caerwyn"
+            },
+            {
+              "label": "Grimhorn",
+              "detail": "Le choix imposant pour les joueurs qui veulent plus de présence"
+            },
+            {
+              "label": "Stonefolk",
+              "detail": "Nommé dans la fiche du store, le roster de lancement devrait donc se préciser"
+            },
+            {
+              "label": "Historiques",
+              "detail": "19 historiques de rôle ajoutent de l'ambiance narrative et des options de départ"
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Guide des armes et du combat Wyldheart",
+          "description": "Comprenez comment fonctionnent les armes de Wyldheart dans un RPG sans classe : alternez entre mêlée, distance, sorts et concoctions, et choisissez deux classes d'armes qui couvrent leurs portées faibles respectives.",
+          "href": "/characters/wyldheart-weapons",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Mêlée",
+              "detail": "Pression à courte portée pour tenir une porte pendant que l'équipe se repositionne"
+            },
+            {
+              "label": "Distance",
+              "detail": "Dégâts à moyenne et longue portée pour ouvrir les combats et couvrir les coéquipiers"
+            },
+            {
+              "label": "Sorts",
+              "detail": "Fenêtres de burst et effets utilitaires issus de l'arbre de Magie"
+            },
+            {
+              "label": "Concoction",
+              "detail": "Dégâts à lancer et craftables qui affaiblissent une meute avant l'assaut de mêlée"
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Donjons et exploration Wyldheart",
+          "description": "Explorez la région de la démo Wyldheart, Whisperwood, et ses donjons, puis découvrez comment rumeurs, villageois et exploration des ruines révèlent des quêtes que vous auriez autrement ignorées.",
+          "href": "/guide/wyldheart-demo",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Explorer",
+              "detail": "Parcourez la région de Whisperwood faite main et ses ruines oubliées"
+            },
+            {
+              "label": "Donjons",
+              "detail": "Des défis instanciés qui mettent à l'épreuve le ressenti du combat et la coordination d'équipe"
+            },
+            {
+              "label": "Champignons",
+              "detail": "Des grappes destructibles qui enseignent tôt la conscience des ressources"
+            },
+            {
+              "label": "Villageois",
+              "detail": "Des PNJ avec emplois du temps et histoires qui révèlent des quêtes par les rumeurs"
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Guide multijoueur et coop Wyldheart",
+          "description": "Mettez en place une campagne coop Wyldheart pour 1 à 4 joueurs et exploitez les systèmes pensés pour les groupes occupés : sessions à entrée libre, sauvegardes partagées dans le cloud, XP de groupe et difficulté qui s'adapte à la taille de l'équipe.",
+          "href": "/modes/wyldheart-co-op",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Entrée libre",
+              "detail": "Les joueurs rejoignent ou quittent en pleine session sans redémarrer la campagne"
+            },
+            {
+              "label": "Sauvegarde cloud",
+              "detail": "La campagne vit dans le cloud plutôt que sur le disque dur d'un joueur"
+            },
+            {
+              "label": "XP de groupe",
+              "detail": "Toute l'équipe progresse ensemble, personne ne reste à la traîne"
+            },
+            {
+              "label": "Adaptation",
+              "detail": "Le défi des ennemis s'ajuste pour que deux comme quatre joueurs aient un combat équitable"
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Guide du craft et de la progression Wyldheart",
+          "description": "Transformez récolte, cuisine et améliorations d'équipement en routine de préparation pour les donjons de Wyldheart, de votre premier poste de camp au craft de relique chez l'Occultist.",
+          "href": "/mechanics/wyldheart-crafting",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Installez d'abord un poste de craft et un stockage de base au camp"
+            },
+            {
+              "label": "2",
+              "detail": "Récoltez Wood, Claw, Flawed Emerald et le goulot d'étranglement Anima Core"
+            },
+            {
+              "label": "3",
+              "detail": "Trouvez le schéma de relique à l'Old Elevator Witch Stone"
+            },
+            {
+              "label": "4",
+              "detail": "Fabriquez chez l'Occultist et cuisinez des repas qui buffent toute l'équipe"
+            },
+            {
+              "label": "5",
+              "detail": "Améliorez un système à la fois avant d'agrandir votre camp"
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Actus de la démo Wyldheart et notes de patch",
+          "description": "Suivez les annonces de Wyldheart au même endroit : l'accord d'édition avec Curve Games, la vitrine Triple-i Initiative, la démo limitée de Whisperwood et la feuille de route de la bêta à l'accès anticipé.",
+          "href": "/release/wyldheart-updates",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Éditeur",
+              "detail": "Wayfinder Studios a signé avec Curve Games comme partenaire d'édition"
+            },
+            {
+              "label": "Vitrine",
+              "detail": "Wyldheart doit apparaître dans la vitrine Triple-i Initiative"
+            },
+            {
+              "label": "Démo",
+              "detail": "La démo limitée couvre Whisperwood, ses donjons et ses champignons"
+            },
+            {
+              "label": "Feuille de route",
+              "detail": "Bêta fermée à partir du 15 mai 2026, accès anticipé avant fin 2026"
+            },
+            {
+              "label": "Sortie",
+              "detail": "La fenêtre de sortie de Wyldheart 1.0 reste à annoncer"
+            }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "FAQ Wyldheart",
+      "description": "Réponses rapides aux questions les plus fréquentes sur Wyldheart, des ascendances et arbres de compétences au coop et à la disponibilité de la démo.",
+      "items": [
+        {
+          "question": "Qu'est-ce que Wyldheart ?",
+          "answer": "Wyldheart est un RPG d'action fantastique coopératif de Wayfinder Studios, édité en partenariat avec Curve Games. Il se déroule dans un monde mythique imprégné du folklore féérique, et vous commencez comme un humble paysan envoyé dans un donjon pour récupérer l'une des anciennes reliques de Caerwyn, plutôt que comme un héros élu."
+        },
+        {
+          "question": "Wyldheart a-t-il des classes ?",
+          "answer": "Non. Wyldheart utilise des arbres de compétences entièrement flexibles et sans classe, vous répartissez donc 50+ compétences entre Aventure, Survie, Exploration de donjon, Armement et Magie au lieu de vous enfermer dans un métier à la création du personnage."
+        },
+        {
+          "question": "Peut-on jouer à Wyldheart en coop ?",
+          "answer": "Oui. Wyldheart prend en charge le jeu solo et le coop en ligne jusqu'à quatre joueurs, avec des sessions à entrée et sortie libres, des sauvegardes partagées dans le cloud, de l'XP de groupe et une difficulté qui s'adapte à la taille de l'équipe."
+        },
+        {
+          "question": "Y a-t-il une démo de Wyldheart jouable maintenant ?",
+          "answer": "Oui, une démo limitée de Wyldheart est disponible. Elle couvre la région de Whisperwood, ses donjons et des champignons destructibles, mais il n'est pas confirmé que la progression soit conservée dans la version complète."
+        },
+        {
+          "question": "Quand Wyldheart sort-il ?",
+          "answer": "Aucune date de sortie de Wyldheart n'a été annoncée. La bêta fermée a ouvert le 15 mai 2026 pour les soutiens, l'accès anticipé est prévu sur PC avant fin 2026, et le lancement de la 1.0 est visé pour 2027."
+        },
+        {
+          "question": "Combien de temps dure une campagne Wyldheart ?",
+          "answer": "Les campagnes de Wyldheart durent environ 10 heures d'histoire plus près de 15 heures de contenu optionnel, que les développeurs ont conçu pour qu'un groupe de quatre puisse réellement atteindre le générique ensemble."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Prêt à maîtriser Wyldheart ?",
+      "description": "De vos premiers pas à Rivermere aux runs de donjon de fin de jeu, notre wiki communautaire vous couvre avec des guides gratuits et à jour pour le solo et le coop à quatre.",
+      "primary": "Lire le guide du débutant",
+      "secondary": "Jouer sur Steam"
+    }
+  },
+  "guide": {
+    "overviewTitle": "Guide Wyldheart : astuces de débutant, soluces & comment jouer",
+    "overviewDescription": "Commencez ici pour les guides du débutant Wyldheart, une soluce complète, les bases du gameplay, les quêtes, les impressions sur la démo et les astuces qui rendent les dix premières heures de la campagne coop bien plus fluides."
+  },
+  "characters": {
+    "overviewTitle": "Personnages Wyldheart : ascendances, historiques & armes",
+    "overviewDescription": "Comparez les ascendances de Wyldheart, les historiques qui façonnent votre build et chaque classe d'arme, puis voyez comment les arbres sans classe permettent à tout personnage de couvrir un rôle d'équipe."
+  },
+  "mechanics": {
+    "overviewTitle": "Mécaniques Wyldheart : combat, craft, magie & arbres de compétences",
+    "overviewDescription": "Comment les systèmes de Wyldheart s'articulent - timing de mêlée, changement d'arme, craft et cuisine, construction de base, écoles de magie et les arbres de compétences derrière chaque build."
+  },
+  "modes": {
+    "overviewTitle": "Multijoueur Wyldheart : coop, crossplay & nombre de joueurs",
+    "overviewDescription": "Wyldheart se joue en solo ou entre amis et prend en charge le coop à entrée libre avec une difficulté qui s'adapte à l'équipe. Comparez coop, crossplay et le nombre de joueurs pris en charge par chaque mode."
+  },
+  "platforms": {
+    "overviewTitle": "Plateformes Wyldheart : Steam, PS5, Xbox, Switch & configuration requise",
+    "overviewDescription": "Où jouer à Wyldheart, ce qu'offre chaque version de plateforme, comment il tourne sur Steam Deck et la configuration PC à vérifier avant d'acheter."
+  },
+  "release": {
+    "overviewTitle": "Date de sortie, bêta & feuille de route Wyldheart",
+    "overviewDescription": "Suivez la date de sortie de Wyldheart, les fenêtres d'accès anticipé et de bêta, la campagne Kickstarter, les jalons de la feuille de route et chaque note de patch tandis que le RPG coop avance vers la 1.0."
+  },
+  "community": {
+    "overviewTitle": "Communauté Wyldheart : Discord, Reddit & ressources de joueurs",
+    "overviewDescription": "Trouvez les communautés Discord et Reddit de Wyldheart, découvrez où les joueurs se regroupent pour le coop et voyez comment la communauté partage builds et discussions de patch."
+  },
+  "shared": {
+    "wikiNavigation": "Navigation du wiki",
+    "updated": "Mis à jour",
+    "playOnSteam": "Jouer sur Steam",
+    "inThisSection": "Dans cette section",
+    "tableOfContents": "Table des matières",
+    "nextSteps": "Étapes suivantes",
+    "needHelp": "Besoin d'aide ?",
+    "relatedReading": "Lecture associée",
+    "relatedGuides": "Guides associés",
+    "readMore": "Lire la suite",
+    "officialMedia": "Médias officiels",
+    "home": "Accueil",
+    "noGuidesAvailable": "Aucun guide disponible pour l'instant. Revenez bientôt !",
+    "popularGuides": "Guides populaires",
+    "popularBeginner": "Guide du débutant",
+    "popularSkillTrees": "Arbres de compétences & builds",
+    "popularAncestries": "Ascendances & races",
+    "popularCoop": "Coop & multijoueur"
+  },
+  "footer": {
+    "aboutTitle": "Wiki Wyldheart",
+    "about": "Wiki Wyldheart est un hub de guides indépendant créé par des fans, couvrant ascendances, historiques, compétences, armes, builds coop, craft, routes de donjons et connaissances essentielles du jeu, pour les nouveaux joueurs comme les vétérans.",
+    "quickLinks": "Liens rapides",
+    "guides": "Guides",
+    "legal": "Mentions légales",
+    "copyright": "2026 Wiki Wyldheart. Non affilié à Wayfinder Studios ni à Curve Games.",
+    "description": "RPG d'action fantastique coop de Wayfinder Studios. 4 ascendances, 19 historiques, 50+ compétences, 1 à 4 joueurs.",
+    "playGame": "Jouer sur Steam",
+    "officialWebsite": "Site officiel",
+    "officialDiscord": "Discord officiel",
+    "officialYoutube": "YouTube officiel",
+    "officialReddit": "Reddit officiel",
+    "officialX": "X officiel",
+    "beginnerGuide": "Guide du débutant",
+    "characterGuides": "Personnages & ascendances",
+    "mechanicsGuides": "Combat & craft",
+    "modesGuides": "Multijoueur & coop",
+    "privacyPolicy": "Politique de confidentialité",
+    "termsOfService": "Conditions d'utilisation"
+  }
+}

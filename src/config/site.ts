@@ -38,6 +38,6 @@ export const siteConfig: SiteConfig = {
     reddit: "https://www.reddit.com/r/wyldheartgame",
     tiktok: "https://www.tiktok.com/@wyldheartgame",
   },
-  locales: ["en", "es", "pt", "de", "fr"],
+  locales: ["en", "ja", "de", "fr"],
   defaultLocale: "en",
 };

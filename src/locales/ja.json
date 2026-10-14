@@ -1,1 +1,513 @@
-{}
+{
+  "site": {
+    "name": "Wyldheart Wiki",
+    "shortName": "Wyldheart",
+    "tagline": "ビルド、スキル、協力ガイド＆ダンジョン攻略",
+    "description": "ファン制作の Wyldheart Wiki。協力ガイド、キャラクタービルド、スキル、種族、武器、クラフトのコツ、ダンジョン攻略、体験版の最新情報、リリースニュースを掲載。",
+    "legalNotice": "非公式のファン Wiki。プレイヤーがプレイヤーのために制作。"
+  },
+  "nav": {
+    "home": "ホーム",
+    "menu": "メニュー",
+    "toggleTheme": "テーマを切り替え",
+    "guide": "ガイド",
+    "characters": "キャラクター",
+    "mechanics": "システム",
+    "modes": "モード",
+    "platforms": "対応機種",
+    "release": "リリース",
+    "community": "コミュニティ"
+  },
+  "home": {
+    "meta": {
+      "title": "Wyldheart Wiki - ビルド、スキル＆協力ガイド",
+      "description": "協力ガイド、キャラクタービルド、スキル、種族、武器、クラフトのコツ、ダンジョン攻略、体験版の最新情報、リリースニュースで Wyldheart を探索。",
+      "keywords": "Wyldheart, PC RPG, 協力ガイド, ビルド, スキル, ダンジョン, クラフト"
+    },
+    "hero": {
+      "eyebrow": "協力型ファンタジーアクションRPG",
+      "title": "Wyldheart Wiki",
+      "description": "ソロ冒険、最大4人協力、自由度の高いキャラクタービルド、ダンジョン探索、クラフト、ストーリー重視のキャンペーンを特徴とするファンタジーアクションRPG、Wyldheart を探索しよう。",
+      "stats": [
+        "4つのプレイ可能な種族",
+        "19のキャラクター背景",
+        "50以上のRPGスキル",
+        "1～4人協力プレイ"
+      ],
+      "primaryCta": "初心者ガイドを読む",
+      "secondaryCta": "Steamで体験版をプレイ",
+      "tertiaryCta": "Epic Gamesでウィッシュリスト登録",
+      "videoLabel": "Wyldheart 公式トレーラー"
+    },
+    "updates": {
+      "title": "最新アップデート",
+      "browse": "すべてのガイドを見る",
+      "viewAll": "すべて表示"
+    },
+    "start": {
+      "eyebrow": "ここから始める",
+      "title": "あなたの Wyldheart の旅",
+      "cards": [
+        {
+          "number": "1",
+          "title": "初心者ガイド",
+          "description": "Wyldheart の序盤ループを学ぶ：農民の英雄を作り、ケルウィンのレリックのひとつを取り戻し、仲間と最初のダンジョンを生き延びよう。"
+        },
+        {
+          "number": "2",
+          "title": "種族を選ぶ",
+          "description": "Wyldheart の種族 Freefolk、Mossling、Grimhorn、Stonefolk を比較し、19のロールプレイ背景からひとつを選んで組み合わせよう。"
+        },
+        {
+          "number": "3",
+          "title": "ビルドを計画する",
+          "description": "最初のポイントを5つのクラスレス Wyldheart スキルツリー（冒険、サバイバル、ダンジョン探索、武器、魔法）に振り分けよう。"
+        },
+        {
+          "number": "4",
+          "title": "フレンドとプレイ",
+          "description": "1～4人用の Wyldheart キャンペーンを設定。途中参加・退出可能な協力プレイ、クラウド共有セーブ、グループ経験値、難易度スケーリングに対応。"
+        }
+      ]
+    },
+    "popular": {
+      "eyebrow": "人気ページ",
+      "title": "話題の Wyldheart ガイド",
+      "quickLinks": [
+        "初心者ガイド",
+        "スキルツリー",
+        "協力ガイド",
+        "リリース日"
+      ],
+      "cards": [
+        {
+          "badge": "初心者",
+          "title": "初心者ガイド",
+          "description": "4人パーティを生き残らせるロール、武器、スキルツリー、協力の習慣。",
+          "href": "/guide/wyldheart-beginner-guide"
+        },
+        {
+          "badge": "人気",
+          "title": "種族＆レース",
+          "description": "Freefolk、Mossling、Grimhorn、Stonefolk の比較と、19の背景の紹介。",
+          "href": "/characters/wyldheart-races"
+        },
+        {
+          "badge": "人気",
+          "title": "スキルツリー＆ビルド",
+          "description": "5つのクラスレスツリーが近接・遠距離・ハイブリッドビルドにどう組み合わさるか。",
+          "href": "/mechanics/wyldheart-skill-tree"
+        },
+        {
+          "badge": "更新",
+          "title": "武器＆戦闘",
+          "description": "武器クラス、戦闘中の持ち替え、あらゆる距離をカバーする装備の組み合わせ。",
+          "href": "/characters/wyldheart-weapons"
+        },
+        {
+          "badge": "人気",
+          "title": "協力＆マルチプレイ",
+          "description": "途中参加セッション、クラウド共有セーブ、グループ経験値、スケーリング難易度を解説。",
+          "href": "/modes/wyldheart-co-op"
+        },
+        {
+          "badge": "ガイド",
+          "title": "クラフト＆装備",
+          "description": "素材、レリック図面の入手ルート、パーティ全体を強化する料理。",
+          "href": "/mechanics/wyldheart-crafting"
+        },
+        {
+          "badge": "新着",
+          "title": "体験版ガイド",
+          "description": "限定の Whisperwood 体験版で遊べる内容と、製品版に残される内容。",
+          "href": "/guide/wyldheart-demo"
+        },
+        {
+          "badge": "更新",
+          "title": "リリース日＆ロードマップ",
+          "description": "ベータ、早期アクセス、1.0の目標時期をひとつのタイムラインに。",
+          "href": "/release/wyldheart-roadmap"
+        },
+        {
+          "badge": "人気",
+          "title": "拠点建設",
+          "description": "拡張に素材を注ぎ込む前に、無駄な往復を減らすキャンプの優先順位。",
+          "href": "/mechanics/wyldheart-base-building"
+        }
+      ]
+    },
+    "aboutGame": {
+      "title": "Wyldheart とは？",
+      "paragraphs": [
+        "Wyldheart は Wayfinder Studios が開発し、Curve Games と提携してパブリッシュする協力型ファンタジーアクションRPGだ。妖精伝承（Fey folklore）に彩られた素朴で神話的な世界を舞台に、その魅力は新鮮なほど非英雄的：あなたは選ばれし者ではない。ひとりの卑しい農民としてダンジョンに放り込まれ、町を守るために古代のケルウィンのレリックのひとつを取り戻す使命を負うところから始まる。",
+        "Wyldheart は固定クラスを廃した。3つの種族、19のロールプレイ背景、5つのクラスレスツリーに分散した50以上のスキルから英雄を組み立て、戦闘中に近接武器、遠距離武器、呪文、投擲調合物を切り替えられる。ソロでも最大4人でも、クラウド共有セーブ付きの途中参加協力プレイで楽しめ、製品版のリリース日は未定のまま、Whisperwood 地域の限定体験版を試せる。"
+      ],
+      "stats": [
+        {
+          "label": "開発元",
+          "value": "Wayfinder Studios"
+        },
+        {
+          "label": "パブリッシャー",
+          "value": "Curve Games"
+        },
+        {
+          "label": "対応機種",
+          "value": "PC (Steam, Epic)"
+        },
+        {
+          "label": "ジャンル",
+          "value": "協力ファンタジーRPG"
+        },
+        {
+          "label": "プレイ人数",
+          "value": "1～4人オンライン協力"
+        },
+        {
+          "label": "スキルツリー",
+          "value": "5つのクラスレス"
+        },
+        {
+          "label": "RPGスキル",
+          "value": "50以上"
+        },
+        {
+          "label": "背景",
+          "value": "19"
+        }
+      ],
+      "cta": "すべてのガイドを探す"
+    },
+    "explore": {
+      "title": "Wyldheart Wiki を探索",
+      "description": "初心者向けの基礎、クラスレスビルド、種族、武器、ダンジョン、協力、クラフト、体験版の最新情報まで、Wyldheart のシステムをモジュールごとに順に学ぼう。",
+      "modules": [
+        {
+          "order": 1,
+          "name": "Wyldheart 初心者ガイド",
+          "description": "新しい Wyldheart キャンペーンを始めよう：農民の英雄を作り、種族と背景を選び、戦闘の切り替えを学び、最初のダンジョンを生き延びる。",
+          "href": "/guide/wyldheart-beginner-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "3つの種族と19のロールプレイ背景から Wyldheart の英雄を作成"
+            },
+            {
+              "label": "2",
+              "detail": "戦闘のリズムを学び、近接・遠距離・呪文・調合物を戦闘中に切り替える"
+            },
+            {
+              "label": "3",
+              "detail": "まずひとつの攻撃ツリーに最初のスキルポイントを振り、その後サポートツリーを追加"
+            },
+            {
+              "label": "4",
+              "detail": "Whisperwood の体験版ダンジョンを連携したパーティでクリア"
+            },
+            {
+              "label": "5",
+              "detail": "素材集め、料理、装備の強化でダンジョンの合間に準備する"
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Wyldheart ビルドとスキルツリー",
+          "description": "5つのクラスレススキルツリーを中心に Wyldheart のビルドを計画しよう。武器と魔法がダメージを担い、冒険・サバイバル・ダンジョン探索が10時間のキャンペーンを支える。",
+          "href": "/mechanics/wyldheart-skill-tree",
+          "displayType": "tier-grid",
+          "highlights": [
+            {
+              "label": "S",
+              "detail": "武器 - 主要ダメージを伸ばす近接・遠距離テクニック"
+            },
+            {
+              "label": "S",
+              "detail": "魔法 - スペルバースト、遠距離圧力、ハイブリッドビルドのユーティリティ"
+            },
+            {
+              "label": "A",
+              "detail": "冒険 - あらゆる戦闘に生きる探索とクエストのパッシブ"
+            },
+            {
+              "label": "B",
+              "detail": "ダンジョン探索 - 遺跡、罠、ダンジョン踏破で準備万端に"
+            },
+            {
+              "label": "C",
+              "detail": "サバイバル - 採取、料理、持久力でパーティを支える"
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Wyldheart 種族と背景",
+          "description": "プレイ可能な Wyldheart の種族を比較し、19のロールプレイ背景が雰囲気と序盤の選択肢をどう形作るかを見よう。武器やスキルツリーを制限することはない。",
+          "href": "/characters/wyldheart-races",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "Freefolk",
+              "detail": "おなじみのファンタジーの基準 - 王道の弱者が英雄になる物語"
+            },
+            {
+              "label": "Mossling",
+              "detail": "小さく好奇心旺盛で、ケルウィンの妖精伝承寄り"
+            },
+            {
+              "label": "Grimhorn",
+              "detail": "重量感のある存在感を求めるプレイヤー向けの堂々たる選択"
+            },
+            {
+              "label": "Stonefolk",
+              "detail": "ストアの記載に名前があり、正式ローンチの顔ぶれが固まる見込み"
+            },
+            {
+              "label": "背景",
+              "detail": "19のロールプレイ背景が物語の彩りと序盤の選択肢を追加"
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Wyldheart 武器と戦闘ガイド",
+          "description": "クラスレスRPGで Wyldheart の武器がどう機能するかを理解しよう：近接・遠距離・呪文・調合物を切り替え、互いの弱点を補う2つの武器クラスを選ぶ。",
+          "href": "/characters/wyldheart-weapons",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "近接",
+              "detail": "パーティが立て直す間、入口を押さえる近距離圧力"
+            },
+            {
+              "label": "遠距離",
+              "detail": "戦闘の幕開けや味方の援護に向く中～遠距離ダメージ"
+            },
+            {
+              "label": "呪文",
+              "detail": "魔法ツリーから得られるバーストの窓とユーティリティ効果"
+            },
+            {
+              "label": "調合物",
+              "detail": "近接が踏み込む前に敵の群れを弱らせる、投擲可能なクラフトダメージ"
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Wyldheart ダンジョンと探索",
+          "description": "Wyldheart 体験版の Whisperwood 地域とそのダンジョンを探索し、噂や村人、遺跡探索が、見逃しがちなクエストをどう明らかにするかを学ぼう。",
+          "href": "/guide/wyldheart-demo",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "探索",
+              "detail": "手作業で作り込まれた Whisperwood 地域と忘れられた遺跡を歩く"
+            },
+            {
+              "label": "ダンジョン",
+              "detail": "戦闘の手応えとパーティ連携を試すインスタンス型の挑戦"
+            },
+            {
+              "label": "キノコ",
+              "detail": "序盤に資源への意識を教える破壊可能なキノコの群生"
+            },
+            {
+              "label": "村人",
+              "detail": "噂を通じてクエストを明かす、スケジュールと物語を持つNPC"
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Wyldheart マルチプレイと協力ガイド",
+          "description": "1～4人用の Wyldheart 協力キャンペーンを設定し、多忙なグループ向けのシステムを使おう：途中参加、クラウド共有セーブ、グループ経験値、パーティ人数に応じた難易度スケーリング。",
+          "href": "/modes/wyldheart-co-op",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "途中参加",
+              "detail": "キャンペーンを再開せずにセッション途中で参加・退出できる"
+            },
+            {
+              "label": "クラウドセーブ",
+              "detail": "キャンペーンはひとりのハードディスクではなくクラウドに保存"
+            },
+            {
+              "label": "グループ経験値",
+              "detail": "パーティ全員が一緒に進行し、誰も取り残されない"
+            },
+            {
+              "label": "スケーリング",
+              "detail": "2人でも4人でも公平な戦いになるよう敵の難易度を調整"
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Wyldheart クラフトと進行ガイド",
+          "description": "採取、料理、装備強化を Wyldheart ダンジョンの準備ルーティンに変えよう。最初のキャンプ設備から Occultist のレリッククラフトまで。",
+          "href": "/mechanics/wyldheart-crafting",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "まずキャンプにクラフト設備と基本的な収納を設置"
+            },
+            {
+              "label": "2",
+              "detail": "Wood、Claw、Flawed Emerald、そして Anima Core のボトルネックを集める"
+            },
+            {
+              "label": "3",
+              "detail": "Old Elevator Witch Stone でレリック図面を見つける"
+            },
+            {
+              "label": "4",
+              "detail": "Occultist でクラフトし、パーティ全体を強化する料理を作る"
+            },
+            {
+              "label": "5",
+              "detail": "キャンプを拡張する前に、ひとつのシステムずつ強化する"
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Wyldheart 体験版アップデートとパッチノート",
+          "description": "Wyldheart の発表をひとつの場所で追おう：Curve Games とのパブリッシング契約、Triple-i Initiative ショーケース、限定 Whisperwood 体験版、ベータから早期アクセスへのロードマップ。",
+          "href": "/release/wyldheart-updates",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "パブリッシャー",
+              "detail": "Wayfinder Studios はパブリッシングパートナーとして Curve Games と契約"
+            },
+            {
+              "label": "ショーケース",
+              "detail": "Wyldheart は Triple-i Initiative ショーケースに登場予定"
+            },
+            {
+              "label": "体験版",
+              "detail": "限定体験版は Whisperwood、そのダンジョン、キノコを収録"
+            },
+            {
+              "label": "ロードマップ",
+              "detail": "2026年5月15日からのクローズドベータ、2026年内に早期アクセス"
+            },
+            {
+              "label": "リリース",
+              "detail": "Wyldheart 1.0 のリリース時期は依然として未発表"
+            }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "Wyldheart FAQ",
+      "description": "種族やスキルツリーから協力プレイや体験版の入手可否まで、Wyldheart に関するよくある質問に手早く回答。",
+      "items": [
+        {
+          "question": "Wyldheart とは？",
+          "answer": "Wyldheart は Wayfinder Studios が開発し、Curve Games と提携してパブリッシュする協力型ファンタジーアクションRPGだ。妖精伝承に彩られた神話的世界を舞台に、選ばれし英雄ではなく、古代のケルウィンのレリックのひとつを取り戻すためにダンジョンへ送り込まれた卑しい農民として始まる。"
+        },
+        {
+          "question": "Wyldheart にクラスはある？",
+          "answer": "いいえ。Wyldheart は完全に自由なクラスレススキルツリーを採用しており、キャラクター作成時に職業へ固定されることなく、冒険・サバイバル・ダンジョン探索・武器・魔法に50以上のスキルを振り分けられる。"
+        },
+        {
+          "question": "Wyldheart は協力プレイできる？",
+          "answer": "はい。Wyldheart はソロプレイと最大4人のオンライン協力に対応し、途中参加・退出、クラウド共有セーブ、グループ経験値、パーティ人数に応じた難易度スケーリングを備える。"
+        },
+        {
+          "question": "今すぐ遊べる Wyldheart の体験版はある？",
+          "answer": "はい、限定の Wyldheart 体験版が配信中だ。Whisperwood 地域、そのダンジョン、破壊可能なキノコを収録しているが、セーブデータが製品版へ引き継がれるかは確認されていない。"
+        },
+        {
+          "question": "Wyldheart はいつリリースされる？",
+          "answer": "Wyldheart のリリース日は発表されていない。クローズドベータは2026年5月15日にバッカー向けに開始され、早期アクセスは2026年内のPC向けを予定、1.0のローンチは2027年を目標としている。"
+        },
+        {
+          "question": "Wyldheart のキャンペーンはどのくらいの長さ？",
+          "answer": "Wyldheart のキャンペーンは物語がおよそ10時間、任意コンテンツが約15時間で、4人グループが現実的に一緒にエンディングまで到達できるよう開発者が設計している。"
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Wyldheart を極める準備はできた？",
+      "description": "Rivermere での最初の一歩から終盤のダンジョン攻略まで、コミュニティ Wiki がソロと4人協力向けの無料で最新のガイドを提供。",
+      "primary": "初心者ガイドを読む",
+      "secondary": "Steamでプレイ"
+    }
+  },
+  "guide": {
+    "overviewTitle": "Wyldheart ガイド：初心者向けのヒント、攻略、遊び方",
+    "overviewDescription": "Wyldheart の初心者ガイド、完全攻略、ゲームプレイの基本、クエスト、体験版の感想、協力キャンペーンの最初の10時間を格段に快適にするヒントはここから。"
+  },
+  "characters": {
+    "overviewTitle": "Wyldheart キャラクター：種族、背景＆武器",
+    "overviewDescription": "Wyldheart の種族、ビルドを形作る背景、すべての武器クラスを比較し、クラスレススキルツリーでどんなキャラクターでもパーティの役割を担える仕組みを見よう。"
+  },
+  "mechanics": {
+    "overviewTitle": "Wyldheart システム：戦闘、クラフト、魔法＆スキルツリー",
+    "overviewDescription": "Wyldheart の各システムがどう噛み合うか - 近接のタイミング、武器の持ち替え、クラフトと料理、拠点建設、魔法系統、そしてすべてのビルドを支えるスキルツリー。"
+  },
+  "modes": {
+    "overviewTitle": "Wyldheart マルチプレイ：協力、クロスプレイ＆プレイ人数",
+    "overviewDescription": "Wyldheart はソロでもフレンドとも遊べ、パーティに応じて難易度がスケールする途中参加協力に対応。協力、クロスプレイ、各モードの対応人数を比較。"
+  },
+  "platforms": {
+    "overviewTitle": "Wyldheart 対応機種：Steam、PS5、Xbox、Switch＆動作環境",
+    "overviewDescription": "Wyldheart をどこで遊べるか、各機種版の内容、Steam Deck での動作、購入前に確認すべきPC動作環境をまとめた。"
+  },
+  "release": {
+    "overviewTitle": "Wyldheart リリース日、ベータ＆ロードマップ更新",
+    "overviewDescription": "Wyldheart のリリース日、早期アクセスとベータの時期、Kickstarter キャンペーン、ロードマップの節目、協力RPGが1.0へ向かう中でのすべてのパッチノートを追おう。"
+  },
+  "community": {
+    "overviewTitle": "Wyldheart コミュニティ：Discord、Reddit＆プレイヤーリソース",
+    "overviewDescription": "Wyldheart の Discord と Reddit コミュニティを見つけ、プレイヤーが協力プレイのために集まる場所や、コミュニティがビルドやパッチの議論を共有する方法を知ろう。"
+  },
+  "shared": {
+    "wikiNavigation": "Wiki ナビゲーション",
+    "updated": "更新",
+    "playOnSteam": "Steamでプレイ",
+    "inThisSection": "このセクション",
+    "tableOfContents": "目次",
+    "nextSteps": "次のステップ",
+    "needHelp": "助けが必要？",
+    "relatedReading": "関連記事",
+    "relatedGuides": "関連ガイド",
+    "readMore": "続きを読む",
+    "officialMedia": "公式メディア",
+    "home": "ホーム",
+    "noGuidesAvailable": "まだガイドがありません。近日公開をお待ちください！",
+    "popularGuides": "人気ガイド",
+    "popularBeginner": "初心者ガイド",
+    "popularSkillTrees": "スキルツリー＆ビルド",
+    "popularAncestries": "種族＆レース",
+    "popularCoop": "協力＆マルチプレイ"
+  },
+  "footer": {
+    "aboutTitle": "Wyldheart Wiki",
+    "about": "Wyldheart Wiki は、種族、背景、スキル、武器、協力ビルド、クラフト、ダンジョンのルート、そして新規・ベテランのプレイヤー双方に必要なゲーム知識を扱う、独立したファン制作のガイドハブです。",
+    "quickLinks": "クイックリンク",
+    "guides": "ガイド",
+    "legal": "法的事項",
+    "copyright": "2026 Wyldheart Wiki. Wayfinder Studios および Curve Games とは提携していません。",
+    "description": "Wayfinder Studios による協力型ファンタジーアクションRPG。4種族、19背景、50以上のスキル、1～4人プレイ。",
+    "playGame": "Steamでプレイ",
+    "officialWebsite": "公式サイト",
+    "officialDiscord": "公式 Discord",
+    "officialYoutube": "公式 YouTube",
+    "officialReddit": "公式 Reddit",
+    "officialX": "公式 X",
+    "beginnerGuide": "初心者ガイド",
+    "characterGuides": "キャラクター＆種族",
+    "mechanicsGuides": "戦闘＆クラフト",
+    "modesGuides": "マルチプレイ＆協力",
+    "privacyPolicy": "プライバシーポリシー",
+    "termsOfService": "利用規約"
+  }
+}
