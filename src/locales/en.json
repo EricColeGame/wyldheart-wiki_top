@@ -39,293 +39,391 @@
     },
     "start": {
       "eyebrow": "Start Here",
-      "title": "Your My Seafood Stand Journey",
+      "title": "Your Wyldheart Journey",
       "cards": [
         {
           "number": "1",
           "title": "Beginner Guide",
-          "description": "Master the Spirit World from day one with our comprehensive beginner guide covering controls, combat, and early progression."
+          "description": "Learn the opening loop of Wyldheart: create a peasant hero, recover a Relic of Caerwyn, and survive your first dungeon with a party of friends."
         },
         {
           "number": "2",
-          "title": "Fastest Leveling",
-          "description": "Dominate early game and max your progression with the most efficient leveling routes and strategies."
+          "title": "Pick an Ancestry",
+          "description": "Compare the Wyldheart ancestries Freefolk, Mossling, Grimhorn, and Stonefolk, then pair your pick with one of 19 roleplaying backgrounds."
         },
         {
           "number": "3",
-          "title": "Best Farming Spots",
-          "description": "Maximize your Soul Essence and EXP gains with optimal farming locations for every stage."
+          "title": "Plan Your Build",
+          "description": "Spend your first points across the five classless Wyldheart skill trees: Adventuring, Survival, Dungeoneering, Weaponry, and Magic."
         },
         {
           "number": "4",
-          "title": "How to Extract",
-          "description": "Learn the best methods and locations for extracting resources in My Seafood Stand."
+          "title": "Play With Friends",
+          "description": "Set up a Wyldheart campaign for 1-4 players with drop-in and drop-out co-op, cloud-shared saves, group XP, and difficulty that scales."
         }
       ]
     },
     "popular": {
       "eyebrow": "Popular Pages",
-      "title": "Trending Now",
+      "title": "Trending Wyldheart Guides",
       "quickLinks": [
-        "Hollow Progression",
-        "Fastest Leveling",
-        "Spirit Charms",
-        "All Boss Guides"
+        "Beginner Guide",
+        "Skill Trees",
+        "Co-op Guide",
+        "Release Date"
       ],
       "cards": [
         {
           "badge": "Beginner",
           "title": "Beginner Guide",
-          "description": "Everything you need from your first login to mastering the basics of combat and progression.",
-          "href": "/beginner-guide"
+          "description": "Roles, weapons, skill trees, and the co-op habits that keep a four-player party alive.",
+          "href": "/guide/wyldheart-beginner-guide"
+        },
+        {
+          "badge": "Popular",
+          "title": "Ancestries & Races",
+          "description": "Freefolk, Mossling, Grimhorn, and Stonefolk compared, plus 19 backgrounds to build around.",
+          "href": "/characters/wyldheart-races"
+        },
+        {
+          "badge": "Popular",
+          "title": "Skill Trees & Builds",
+          "description": "How the five classless Wyldheart trees combine into melee, ranged, and hybrid builds.",
+          "href": "/mechanics/wyldheart-skill-tree"
         },
         {
           "badge": "Updated",
-          "title": "Active Codes",
-          "description": "All working codes with rewards redeem before they expire.",
-          "href": "/codes"
+          "title": "Weapons & Combat",
+          "description": "Weapon classes, mid-fight swapping, and the loadout pairing that covers every range.",
+          "href": "/characters/wyldheart-weapons"
+        },
+        {
+          "badge": "Popular",
+          "title": "Co-op & Multiplayer",
+          "description": "Drop-in sessions, cloud-shared saves, group XP, and scaling difficulty explained.",
+          "href": "/modes/wyldheart-co-op"
+        },
+        {
+          "badge": "Guide",
+          "title": "Crafting & Gear",
+          "description": "Materials, the relic diagram route, and cooking meals that buff the whole party.",
+          "href": "/mechanics/wyldheart-crafting"
+        },
+        {
+          "badge": "New",
+          "title": "Demo Guide",
+          "description": "What the limited Whisperwood demo covers and what it leaves for launch.",
+          "href": "/guide/wyldheart-demo"
         },
         {
           "badge": "Updated",
-          "title": "Equipment Database",
-          "description": "94 items across 5 slots complete gear database with stats, rarity, and sources.",
-          "href": "/equipment"
+          "title": "Release Date & Roadmap",
+          "description": "Beta, Early Access, and the 1.0 target window in one timeline.",
+          "href": "/release/wyldheart-roadmap"
         },
         {
           "badge": "Popular",
-          "title": "Which Race Should You Pick?",
-          "description": "Shinigami, Quincy, or Hollow compare all three and find your perfect playstyle.",
-          "href": "/races/best-race"
-        },
-        {
-          "badge": "New",
-          "title": "Enemies & Monsters",
-          "description": "23 enemy types across 5 regions drops, locations, and farming tips.",
-          "href": "/enemies"
-        },
-        {
-          "badge": "Popular",
-          "title": "Boss Locations & Drops",
-          "description": "Every boss location, drop table, and respawn timer in one reference.",
-          "href": "/boss-locations-drops-respawn-times"
-        },
-        {
-          "badge": "Popular",
-          "title": "Best Builds",
-          "description": "Optimal stat allocation, skill tree picks, and Charm combos for every playstyle.",
-          "href": "/builds/best-builds"
-        },
-        {
-          "badge": "New",
-          "title": "Shikai Tier List",
-          "description": "All 6 Shinigami Shikai types ranked by PvP and PvE performance.",
-          "href": "/tier-list/shikai"
-        },
-        {
-          "badge": "New",
-          "title": "World Events Guide",
-          "description": "Supply Caches, Raids, and endgame world events with rare rewards.",
-          "href": "/world-events"
+          "title": "Base Building",
+          "description": "Camp priorities that cut backtracking before you sink materials into expansion.",
+          "href": "/mechanics/wyldheart-base-building"
         }
       ]
     },
     "aboutGame": {
-      "title": "What is My Seafood Stand?",
+      "title": "What is Wyldheart?",
       "paragraphs": [
-        "My Seafood Stand is a stylized fighting RPG on Roblox inspired by the Bleach anime universe. Choose from three playable races Shinigami, Quincy, or Hollow each with unique progression systems, unlockable abilities, and evolution paths. Master over 130 skills as you fight your way to the level 100 cap.",
-        "Whether you're unlocking your first Shikai, evolving from a base Hollow into an Arrancar, or grinding Quincy Lieutenant missions, our wiki covers every system with detailed guides, data tables, and step-by-step walkthroughs."
+        "Wyldheart is a cooperative fantasy action RPG from Wayfinder Studios, published in partnership with Curve Games. It is set in a rustic mythic world steeped in Fey folklore, and its hook is refreshingly unheroic: you are not the chosen one. You begin as a humble peasant tossed into a dungeon and tasked with recovering one of the ancient Relics of Caerwyn to protect your town.",
+        "Wyldheart throws out fixed classes. You build a hero from three ancestries, 19 roleplaying backgrounds, and 50+ skills spread across five classless trees, then swap between melee weapons, ranged weapons, spells, and thrown concoctions mid-fight. Play solo or with up to four players through drop-in co-op with cloud-shared saves, and try the limited demo in the Whisperwood region while the full release date stays to be announced."
       ],
       "stats": [
         {
           "label": "Developer",
-          "value": "Midnight Continent"
+          "value": "Wayfinder Studios"
+        },
+        {
+          "label": "Publisher",
+          "value": "Curve Games"
         },
         {
           "label": "Platform",
-          "value": "Roblox"
+          "value": "PC (Steam, Epic)"
         },
         {
           "label": "Genre",
-          "value": "Fighting RPG"
+          "value": "Co-op Fantasy RPG"
         },
         {
-          "label": "Visits",
-          "value": "12.6M+"
+          "label": "Players",
+          "value": "1-4 Online Co-op"
         },
         {
-          "label": "Favorites",
-          "value": "243K+"
+          "label": "Skill Trees",
+          "value": "5 Classless"
         },
         {
-          "label": "Total Skills",
-          "value": "130+"
+          "label": "RPG Skills",
+          "value": "50+"
         },
         {
-          "label": "Level Cap",
-          "value": "100"
+          "label": "Backgrounds",
+          "value": "19"
         }
       ],
       "cta": "Explore All Guides"
     },
     "explore": {
-      "title": "Explore My Seafood Stand Wiki",
-      "description": "Master your seafood restaurant on Roblox with essential progression guides, active codes, complete fish & recipe catalogs, and optimal upgrade strategies.",
+      "title": "Explore Wyldheart Wiki",
+      "description": "Work through the Wyldheart systems one module at a time: beginner basics, classless builds, ancestries, weapons, dungeons, co-op, crafting, and demo updates.",
       "modules": [
         {
           "order": 1,
-          "name": "My Seafood Stand Working Codes",
-          "description": "Redeem the latest working codes to claim free coins, gems, exclusive cosmetics, and boost items before they expire.",
-          "href": "/codes/my-seafood-stand-codes",
-          "displayType": "code-box",
+          "name": "Wyldheart Beginner Guide",
+          "description": "Get a new Wyldheart campaign off the ground: create a peasant hero, choose an ancestry and background, learn the combat swap, and survive your first dungeon run.",
+          "href": "/guide/wyldheart-beginner-guide",
+          "displayType": "step-by-step",
           "highlights": [
             {
-              "label": "Code",
-              "detail": "FULLRELEASE — Free Cash & Rewards"
+              "label": "1",
+              "detail": "Create a Wyldheart hero from one of three ancestries and 19 roleplaying backgrounds"
             },
             {
-              "label": "Code",
-              "detail": "75KLIKES — Exclusive Ability Reroll"
+              "label": "2",
+              "detail": "Learn the combat rhythm and swap melee, ranged, spells, and concoctions mid-fight"
             },
             {
-              "label": "Tip",
-              "detail": "Codes are case-sensitive; enter them in the Settings menu"
+              "label": "3",
+              "detail": "Spend your first skill points in one damage tree before adding a support tree"
+            },
+            {
+              "label": "4",
+              "detail": "Run the Whisperwood demo dungeon and clear it with a coordinated party"
+            },
+            {
+              "label": "5",
+              "detail": "Prepare between runs by gathering materials, cooking meals, and upgrading gear"
             }
           ]
         },
         {
           "order": 2,
-          "name": "Beginner Guide: How to Start & Serve Customers",
-          "description": "Step-by-step beginner guide covering customer ordering, food prep, station management, and cashier checkout mechanics.",
-          "href": "/guide/my-seafood-stand-beginner-guide",
-          "displayType": "feature-cards",
+          "name": "Wyldheart Builds and Skill Trees",
+          "description": "Plan a Wyldheart build around five classless skill trees. Weaponry and Magic carry your damage, while Adventuring, Survival, and Dungeoneering keep a ten-hour campaign sustainable.",
+          "href": "/mechanics/wyldheart-skill-tree",
+          "displayType": "tier-grid",
           "highlights": [
             {
-              "label": "Step 1",
-              "detail": "Take customer order at the stall front"
+              "label": "S",
+              "detail": "Weaponry - melee and ranged techniques that scale your primary damage"
             },
             {
-              "label": "Step 2",
-              "detail": "Cook seafood on the grill or boil station"
+              "label": "S",
+              "detail": "Magic - spell burst, ranged pressure, and utility for hybrid builds"
             },
             {
-              "label": "Step 3",
-              "detail": "Serve warm food promptly for maximum customer tips"
+              "label": "A",
+              "detail": "Adventuring - exploration and questing passives that carry into every fight"
+            },
+            {
+              "label": "B",
+              "detail": "Dungeoneering - ruins, traps, and dungeon traversal so you arrive prepared"
+            },
+            {
+              "label": "C",
+              "detail": "Survival - gathering, cooking, and endurance that keep the party standing"
             }
           ]
         },
         {
           "order": 3,
-          "name": "Seafood & Fish Tier List",
-          "description": "Complete breakdown of all catchable fish and seafood ranked by market value, customer demand, and profit margins.",
-          "href": "/seafood/my-seafood-stand-tier-list",
-          "displayType": "tier-grid",
+          "name": "Wyldheart Ancestries and Backgrounds",
+          "description": "Compare the playable Wyldheart ancestries and see how the 19 roleplaying backgrounds shape flavor and early options without locking you out of any weapon or skill tree.",
+          "href": "/characters/wyldheart-races",
+          "displayType": "code-cards",
           "highlights": [
             {
-              "label": "S Tier",
-              "detail": "King Crab · Lobster Boil — Highest profit per customer"
+              "label": "Freefolk",
+              "detail": "The familiar fantasy baseline - a classic underdog hero arc"
             },
             {
-              "label": "A Tier",
-              "detail": "Salmon · Jumbo Shrimp · Tuna Steak — Reliable fast earners"
+              "label": "Mossling",
+              "detail": "Small and curious, leaning into the Fey folklore side of Caerwyn"
             },
             {
-              "label": "B Tier",
-              "detail": "Clams · Oysters · Squid — Great mid-game margin"
+              "label": "Grimhorn",
+              "detail": "The towering pick for players who want a heavier presence"
             },
             {
-              "label": "C Tier",
-              "detail": "Common Sardines · Small Crab — Starter seafood"
+              "label": "Stonefolk",
+              "detail": "Named in the store listing, so expect the launch roster to firm up"
+            },
+            {
+              "label": "Backgrounds",
+              "detail": "19 roleplaying backgrounds add story flavor and early options"
             }
           ]
         },
         {
           "order": 4,
-          "name": "Best Upgrades Progression",
-          "description": "Optimal order to spend your cash: expand kitchen stations, hire waitstaff, speed up grills, and upgrade seating.",
-          "href": "/upgrades/my-seafood-stand-best-upgrades",
-          "displayType": "feature-cards",
+          "name": "Wyldheart Weapons and Combat Guide",
+          "description": "Understand how Wyldheart weapons work in a classless RPG: swap between melee, ranged, spells, and concoctions, and pick two weapon classes that cover each other's weak ranges.",
+          "href": "/characters/wyldheart-weapons",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Priority 1",
-              "detail": "Cooking Speed & Extra Burners — Clears customer backlog"
+              "label": "Melee",
+              "detail": "Close-range pressure for holding a doorway while your party repositions"
             },
             {
-              "label": "Priority 2",
-              "detail": "Customer Seating Capacity — Increases simultaneous diners"
+              "label": "Ranged",
+              "detail": "Mid to long range damage for opening fights and covering teammates"
             },
             {
-              "label": "Priority 3",
-              "detail": "Auto-Chef / Waiter Staff — Passive hands-free revenue"
+              "label": "Spells",
+              "detail": "Burst windows and utility effects that come from the Magic tree"
+            },
+            {
+              "label": "Concoction",
+              "detail": "Thrown, craftable damage that softens a pack before melee commits"
             }
           ]
         },
         {
           "order": 5,
-          "name": "How to Get Cash Fast",
-          "description": "Top money-making strategies, VIP evaluation, tip maximization, and high-efficiency serving tips.",
-          "href": "/guide/my-seafood-stand-how-to-get-cash-fast",
-          "displayType": "feature-cards",
+          "name": "Wyldheart Dungeons and Exploration",
+          "description": "Explore the Wyldheart demo region of Whisperwood and its dungeons, then learn how rumors, villagers, and ruin exploration reveal quests you would otherwise walk past.",
+          "href": "/guide/wyldheart-demo",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Combo",
-              "detail": "Chain orders quickly to build the Customer Happiness multiplier"
+              "label": "Explore",
+              "detail": "Roam the handcrafted Whisperwood region and its forgotten ruins"
             },
             {
-              "label": "High Margin",
-              "detail": "Focus high-tier seafood boils during peak customer rush hours"
+              "label": "Dungeons",
+              "detail": "Instanced challenges that test combat feel and party coordination"
             },
             {
-              "label": "Reinvest",
-              "detail": "Keep 20% cash reserve for fresh ingredient replenishment"
+              "label": "Mushrooms",
+              "detail": "Destructible clusters that teach resource awareness early"
+            },
+            {
+              "label": "Villagers",
+              "detail": "NPCs with schedules and stories that reveal quests through rumors"
             }
           ]
         },
         {
           "order": 6,
-          "name": "Plot Expansion & Stand Customization",
-          "description": "Unlock bigger land plots, arrange optimal cooking layouts, and add high-value decorative upgrades.",
-          "href": "/upgrades/my-seafood-stand-how-to-upgrade-plot",
-          "displayType": "feature-cards",
+          "name": "Wyldheart Multiplayer and Co-op Guide",
+          "description": "Set up a Wyldheart co-op campaign for 1-4 players and use the systems built for busy groups: drop-in sessions, cloud-shared saves, group XP, and difficulty that scales with party size.",
+          "href": "/modes/wyldheart-co-op",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Plot 1",
-              "detail": "Starter Beach Stand (3 Tables, 1 Grill)"
+              "label": "Drop-In",
+              "detail": "Players join or leave mid-session without restarting the campaign"
             },
             {
-              "label": "Plot 2",
-              "detail": "Boardwalk Restaurant (6 Tables, 2 Grills, Boil Station)"
+              "label": "Cloud Save",
+              "detail": "The campaign lives in the cloud instead of one player's hard drive"
             },
             {
-              "label": "Plot 3",
-              "detail": "Luxury Pier Seafood Pavilion (Full Automation & VIP Seating)"
+              "label": "Group XP",
+              "detail": "Everyone in the party earns progress together, so nobody falls behind"
+            },
+            {
+              "label": "Scaling",
+              "detail": "Enemy challenge adjusts so two and four players both get a fair fight"
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Wyldheart Crafting and Progression Guide",
+          "description": "Turn gathering, cooking, and gear upgrades into a preparation routine for Wyldheart dungeons, from your first camp station to the Occultist relic craft.",
+          "href": "/mechanics/wyldheart-crafting",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Set up a crafting station and basic storage at camp first"
+            },
+            {
+              "label": "2",
+              "detail": "Gather Wood, Claw, Flawed Emerald, and the Anima Core bottleneck"
+            },
+            {
+              "label": "3",
+              "detail": "Find the relic diagram at the Old Elevator Witch Stone"
+            },
+            {
+              "label": "4",
+              "detail": "Craft at the Occultist and cook meals that buff the whole party"
+            },
+            {
+              "label": "5",
+              "detail": "Upgrade one system at a time before expanding your camp"
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Wyldheart Demo Updates and Patch Notes",
+          "description": "Track Wyldheart announcements in one place: the Curve Games publishing deal, the Triple-i Initiative showcase, the limited Whisperwood demo, and the beta to Early Access roadmap.",
+          "href": "/release/wyldheart-updates",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Publisher",
+              "detail": "Wayfinder Studios signed with Curve Games as its publishing partner"
+            },
+            {
+              "label": "Showcase",
+              "detail": "Wyldheart is set to appear in the Triple-i Initiative showcase"
+            },
+            {
+              "label": "Demo",
+              "detail": "The limited demo covers Whisperwood, its dungeons, and mushrooms"
+            },
+            {
+              "label": "Roadmap",
+              "detail": "Closed beta from May 15, 2026, with Early Access before the end of 2026"
+            },
+            {
+              "label": "Release",
+              "detail": "The Wyldheart 1.0 release window is still to be announced"
             }
           ]
         }
       ]
     },
     "faq": {
-      "title": "Frequently Asked Questions",
-      "description": "Quick answers to the most common questions about My Seafood Stand.",
+      "title": "Wyldheart FAQ",
+      "description": "Quick answers to the most common questions about Wyldheart, from ancestries and skill trees to co-op and demo availability.",
       "items": [
         {
-          "question": "What is My Seafood Stand?",
-          "answer": "My Seafood Stand is a free-to-play fighting RPG on Roblox based on the Bleach anime. You choose one of game mechanics Shinigami (Soul Reaper), Quincy, or Hollow each with unique progression, combat abilities, and evolution systems. The game features 130+ skills, a level 100 cap, boss fights, and deep build customization."
+          "question": "What is Wyldheart?",
+          "answer": "Wyldheart is a cooperative fantasy action RPG from Wayfinder Studios, published in partnership with Curve Games. It is set in a mythic world steeped in Fey folklore, and you start as a humble peasant sent into a dungeon to recover one of the ancient Relics of Caerwyn rather than as a chosen hero."
         },
         {
-          "question": "Which race should beginners pick?",
-          "answer": "Shinigami is the most straightforward starter race, while Hollow and Quincy offer more specialized progression routes. Compare their abilities before committing."
+          "question": "Does Wyldheart have classes?",
+          "answer": "No. Wyldheart uses fully flexible classless skill trees, so you spread 50+ skills across Adventuring, Survival, Dungeoneering, Weaponry, and Magic instead of locking into a job at character creation."
         },
         {
-          "question": "What is the current level cap?",
-          "answer": "The current level cap is 100, with more than 130 skills available across trees and race progression systems."
+          "question": "Can you play Wyldheart in co-op?",
+          "answer": "Yes. Wyldheart supports solo play and online co-op for up to four players, with drop-in and drop-out sessions, cloud-shared saves, group XP, and difficulty that scales with party size."
         },
         {
-          "question": "Where do I find active codes?",
-          "answer": "Use the Codes page for working codes, rewards, expiration notes, and redeem instructions."
+          "question": "Is there a Wyldheart demo I can play now?",
+          "answer": "Yes, a limited Wyldheart demo is available. It covers the Whisperwood region, its dungeons, and destructible mushrooms, but save progress is not confirmed to carry over into the full release."
         },
         {
-          "question": "Are boss guides updated?",
-          "answer": "Boss pages are organized with spawn notes, attack patterns, strategies, drop tables, and related next steps for progression."
+          "question": "When does Wyldheart release?",
+          "answer": "A Wyldheart release date has not been announced. The closed beta opened on May 15, 2026 for backers, Early Access is planned for PC before the end of 2026, and the 1.0 launch is targeted for 2027."
+        },
+        {
+          "question": "How long is a Wyldheart campaign?",
+          "answer": "Wyldheart campaigns run roughly 10 hours of story plus about 15 hours of optional content, which the developers designed so a group of four can realistically reach the credits together."
         }
       ]
     },
@@ -342,7 +440,7 @@
     "activeCodes": "Active Codes",
     "updated": "Updated",
     "viewAllCodes": "View all codes",
-    "playOnRoblox": "Play on Roblox",
+    "playOnSteam": "Play on Steam",
     "inThisSection": "In this section",
     "tableOfContents": "Table of Contents",
     "nextSteps": "Next Steps",
