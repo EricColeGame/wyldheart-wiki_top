@@ -2,8 +2,19 @@ import { getRequestConfig } from "next-intl/server";
 import { hasLocale } from "next-intl";
 import { routing } from "./routing";
 import en from "@/locales/en.json";
+import ja from "@/locales/ja.json";
+import de from "@/locales/de.json";
+import fr from "@/locales/fr.json";
 
 type Messages = typeof en;
+
+// 语言码 → 消息包（语言集合的唯一真相源见 routing.ts，新增语言时同步此处与 src/locales/*.json）
+const messagesMap: Record<string, Partial<Messages>> = {
+  "en": en,
+  "ja": ja,
+  "de": de,
+  "fr": fr,
+};
 
 function deepMerge<T>(base: T, override: Partial<T>): T {
   if (
@@ -37,16 +48,7 @@ export default getRequestConfig(async ({ requestLocale }) => {
     ? requested
     : routing.defaultLocale;
 
-  let localeMessages: Partial<Messages> = {};
-  if (locale !== "en") {
-    try {
-      const imported = await import(`@/locales/${locale}.json`);
-      localeMessages = imported.default || imported;
-    } catch {
-      // Fallback cleanly to en if locale json doesn't exist yet
-      localeMessages = {};
-    }
-  }
+  const localeMessages = messagesMap[locale] ?? {};
 
   const messages = deepMerge(en, localeMessages);
   return { locale, messages };
