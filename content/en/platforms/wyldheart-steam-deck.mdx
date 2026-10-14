@@ -1,0 +1,133 @@
+export const metadata = {
+  title: "Wyldheart Steam Deck Compatibility: Can You Play This Co-op RPG on the Go?",
+  description: "Wyldheart's Steam Deck compatibility is still unconfirmed. Here's what we know about specs, Proton support, co-op, and how to prep for Early Access.",
+  category: "platforms",
+  date: "2026-10-15",
+}
+
+## Why the Wyldheart Steam Deck Question Is Still Open
+
+Wyldheart Steam Deck support is one of the most common questions players are asking about this upcoming co-op fantasy RPG, and right now the honest answer is: nobody knows for certain. The game's official Steam listing marks Steam Deck compatibility as "Unknown," which means Valve has not finished its verification review — not that the game is broken on handheld. If you're hoping to play this classless, four-player action RPG on the go, it helps to understand what that rating actually means, how the published system requirements stack up against Deck hardware, and what you can do ahead of launch to give yourself the best shot at a smooth experience.
+
+Wyldheart is a handcrafted indie RPG built for small groups: solo or up to four players, seamless drop-in/drop-out co-op, cloud-shared saves, and campaigns that run roughly 10 hours of story plus 15 hours of optional content. That structure is practically begging for handheld play. Whether the Wyldheart Steam Deck experience lives up to that promise depends on a few technical details we can already evaluate.
+
+## Wyldheart Steam Deck Compatibility: What "Unknown" Actually Means
+
+Open the [official Wyldheart Steam store page](https://store.steampowered.com/app/3642910/Wyldheart/) and you'll find a single word beside Steam Deck Compatibility: **Unknown**. That is not a rejection. Valve's Deck Verified program sorts games into a handful of categories, and "Unknown" simply means the review hasn't concluded yet.
+
+| Deck status | What it tells you | Wyldheart's current status |
+|---|---|---|
+| Verified | Controller layout works by default, text is legible, performance is solid | Not assigned |
+| Playable | Runs, but may need manual tweaks or small on-screen text | Not assigned |
+| Unsupported | Won't run or is blocked by incompatible software | Not assigned |
+| Unknown | Valve hasn't completed testing | ✅ Where Wyldheart sits today |
+
+Two details stand out. First, the listing makes no mention of a native Linux build, so the Windows version running through Proton is the most likely path — and Proton handles the vast majority of DirectX 12 titles without drama these days. Second, nothing in the listing hints at kernel-level anti-cheat, which is the usual reason a game ends up "Unsupported." Wyldheart's multiplayer is built around small private parties rather than competitive matchmaking, so there's little technical reason for a blocking anti-cheat layer.
+
+The verdict for now: no red flags, but no promises either. Treat any Wyldheart Steam Deck rating as unconfirmed until Valve publishes one.
+
+## Wyldheart System Requirements vs. Steam Deck Hardware
+
+The published requirements are Windows-targeted, so they need translation before they mean anything on a handheld. Here's the side-by-side.
+
+| Component | Wyldheart minimum | Wyldheart recommended | Steam Deck (OLED) |
+|---|---|---|---|
+| OS | Windows 10/11 64-bit | Windows 10/11 64-bit | SteamOS 3 (Linux) via Proton |
+| Processor | Intel i7-7700K / AMD Ryzen 5 1600 | Intel i5-10400F / AMD Ryzen 5 5600 or better | AMD APU, 4 cores / 8 threads (Zen 2) |
+| Memory | 16 GB RAM | 16 GB RAM | 16 GB LPDDR5 |
+| Graphics | GeForce GTX 1660 Ti / Radeon RX 5700 | RTX 3060 / RTX 2070 Super / RX 6600 XT | Integrated RDNA 2, 8 compute units |
+| DirectX | Version 12 (Ultimate) | Version 12 (Ultimate) | Vulkan through Proton translation |
+| Storage | 10 GB, SSD required | 10 GB, SSD required | 64 GB eMMC up to 1 TB NVMe |
+| Target | 1080p, Medium, 30 FPS | 1080p, High, 60 FPS | 1280×800 native panel |
+
+The headline concern is the GPU. A GTX 1660 Ti or RX 5700 is a desktop-class card well above the Steam Deck's integrated graphics. But context matters: that minimum targets **1080p at medium settings and 30 FPS**, while the Deck renders at 1280×800 — roughly 44% fewer pixels than 1080p. Add FSR upscaling and the internal resolution can drop further still.
+
+Two more points work in the Deck's favor. Memory is an exact match at 16 GB, and the 10 GB storage footprint is trivial. The catch is the explicit **SSD requirement**, which means installing to internal NVMe storage or a fast microSD card rather than a slow one.
+
+Most importantly, the developers state plainly that these requirements are a work in progress and do not reflect the optimization passes planned before release. Minimum specs for unreleased games are often pessimistic placeholders.
+
+| Requirement detail | Deck readiness | Notes |
+|---|---|---|
+| 16 GB RAM | Strong match | Deck ships with 16 GB LPDDR5 |
+| 10 GB storage | Easy | Fits on any Deck configuration |
+| SSD requirement | Manageable | Use internal storage for best results |
+| GPU tier | Uncertain | Deck renders at lower resolution, which helps |
+| Windows-only listing | Needs Proton | No native Linux build announced |
+
+## How to Prep Your Steam Deck for Wyldheart Before Launch
+
+You can't install a game that isn't out yet, but you can absolutely get your hardware ready. Here's a practical checklist.
+
+| Step | What to do | Why it matters |
+|---|---|---|
+| 1 | Wishlist Wyldheart on Steam | You'll get an alert the moment Early Access opens |
+| 2 | Free up internal storage | The spec calls for an SSD; internal NVMe beats microSD for open-world streaming |
+| 3 | Update SteamOS and Proton | Newer Proton builds frequently resolve launch-day crashes |
+| 4 | Try Proton Experimental if the default fails | The fastest fix for black screens and instant crashes |
+| 5 | Set resolution to 1280×800 and enable FSR | Matches the panel and buys back frame rate |
+| 6 | Cap the frame rate at 30 or 40 Hz | Better frame pacing and noticeably longer battery life |
+| 7 | Post findings in the Steam forums | Early Access exists specifically to collect player feedback |
+
+A few of these deserve extra emphasis. On step 6, capping to 40 Hz on the OLED model is a common sweet spot — it feels considerably smoother than 30 while drawing far less power than an uncapped frame rate. On step 2, an SSD requirement usually signals lots of asset streaming, and open towns with NPCs on their own schedules tend to be exactly that kind of workload.
+
+Also worth knowing: the store page notes the game requires agreement to a third-party EULA, and the developers describe mature content as stylized fantasy combat violence. Neither affects compatibility, but both are worth checking before you buy.
+
+## Co-op, Cloud Saves, and Why Handheld Play Fits Wyldheart
+
+Wyldheart is designed around small communities rather than massive lobbies. You play solo or with up to four players, joining and leaving sessions seamlessly. Cloud-shared saves, group XP, and scaling difficulty keep the party moving even when someone sits out a night.
+
+| Feature | How it works | Why it suits a handheld |
+|---|---|---|
+| Player count | Solo or up to 4-player co-op | Join from the couch, a commute, or a hotel room |
+| Drop-in/drop-out | Seamless joining and leaving | No need to block out a full evening |
+| Cloud-shared saves | Party progress stored in the cloud | Continue the same campaign on Deck or desktop |
+| Group XP | Everyone levels together | Nobody falls behind after missing a session |
+| Scaling difficulty | Challenge adapts to party size | Balanced whether you're solo or four-up |
+| Campaign length | ~10 hours story, ~15 hours optional | Short sessions that still add up to a full campaign |
+
+That last row is the real argument for portable play. A 10-hour story campaign with 15 hours of side content breaks cleanly into 45-minute sessions, which is exactly how a lot of people actually use a Steam Deck. If cloud-shared saves work the way they're described, you could run a dungeon on your commute and hand the same save back to your desktop that evening.
+
+One caveat: until players actually get hands-on time, any performance numbers circulating in community reports should be treated as anecdotal. Nobody has benchmarked a build that isn't in the wild yet.
+
+## Early Access, Pricing, and Language Support at a Glance
+
+Wyldheart launches into Early Access as a work in progress, with a full 1.0 release targeted for sometime in 2027. The developers have said the price will rise gradually as new content and features ship, which is typical for the model.
+
+| Language | Interface | Subtitles | Full audio |
+|---|---|---|---|
+| English | ✔ | ✔ | Not listed |
+| French | ✔ | ✔ | Not listed |
+| German | ✔ | ✔ | Not listed |
+| Japanese | ✔ | ✔ | Not listed |
+| Korean | ✔ | ✔ | Not listed |
+
+Five interface and subtitle languages are supported at launch, with no full audio dubs listed at this time — something that could expand later.
+
+| Milestone | Current status |
+|---|---|
+| Steam release | Coming soon to Early Access |
+| Early Access content | First campaign, 19 roleplaying backgrounds, flexible skill trees |
+| Skill tree categories | Adventuring, Survival, Dungeoneering, Weaponry, Oldways of Magic |
+| Weapon techniques | Sword, Axe, Mace, Bow, Staff |
+| Full 1.0 release | Planned for 2027 |
+| Pricing | Expected to rise gradually during Early Access |
+| Deck Verified rating | Not yet assigned |
+
+One small discrepancy is worth flagging for detail-oriented players. The store page's game description names four ancestries — Freefolk, Mossling, Grimhorn, and Stonefolk — while the Early Access FAQ mentions three playable ancestries at launch. That gap will likely resolve itself as the game approaches release.
+
+## Frequently Asked Questions
+
+**Is Wyldheart Steam Deck verified?**
+Not yet. The Steam store page lists Steam Deck compatibility as "Unknown," which means Valve hasn't completed its verification review. A rating — Verified, Playable, or Unsupported — typically arrives closer to launch.
+
+**Can the Steam Deck actually run Wyldheart?**
+The published minimum specs call for a GTX 1660 Ti or RX 5700, which is above the Deck's integrated RDNA 2 graphics. However, those specs target 1080p at 30 FPS, while the Deck renders at 1280×800, and the developers describe the requirements as a work in progress ahead of planned optimization passes. Reasonable chance of playable performance; no guarantee.
+
+**When can I play Wyldheart?**
+The game is coming soon to Steam Early Access, with a full 1.0 release planned for sometime in 2027. Early Access will include the first campaign, three playable ancestries per the developers' FAQ, and 19 roleplaying backgrounds.
+
+**Does Wyldheart support co-op?**
+Yes. It supports solo play and up to four-player co-op with seamless drop-in/drop-out, cloud-shared saves, group XP, and scaling difficulty — a structure that fits handheld play particularly well.
+
+**Should I wait for a Deck Verified badge before buying?**
+Not necessarily. Wishlisting the game costs nothing and gets you notified at launch. If you'd rather not gamble on unverified performance, waiting a few weeks for community reports and a potential compatibility rating is the safer play.

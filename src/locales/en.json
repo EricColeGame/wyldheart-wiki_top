@@ -9,7 +9,14 @@
   "nav": {
     "home": "Home",
     "menu": "Menu",
-    "toggleTheme": "Toggle theme"
+    "toggleTheme": "Toggle theme",
+    "guide": "Guide",
+    "characters": "Characters",
+    "mechanics": "Mechanics",
+    "modes": "Modes",
+    "platforms": "Platforms",
+    "release": "Release",
+    "community": "Community"
   },
   "home": {
     "meta": {
@@ -434,12 +441,37 @@
       "secondary": "Play on Steam"
     }
   },
-  "bosses": {},
+  "guide": {
+    "overviewTitle": "Wyldheart Guide: Beginner Tips, Walkthroughs & How to Play",
+    "overviewDescription": "Start here for Wyldheart beginner guides, a full walkthrough, gameplay basics, quests, demo impressions, and the tips that make the first ten hours of the co-op campaign far smoother."
+  },
+  "characters": {
+    "overviewTitle": "Wyldheart Characters: Ancestries, Backgrounds & Weapons",
+    "overviewDescription": "Compare the Wyldheart ancestries, the backgrounds that shape your build, and every weapon class, then see how the classless skill trees let any character cover a party role."
+  },
+  "mechanics": {
+    "overviewTitle": "Wyldheart Mechanics: Combat, Crafting, Magic & Skill Trees",
+    "overviewDescription": "How the Wyldheart systems fit together - melee timing, weapon swapping, crafting and cooking, base building, magic schools, and the skill trees behind every build."
+  },
+  "modes": {
+    "overviewTitle": "Wyldheart Multiplayer: Co-op, Crossplay & Player Counts",
+    "overviewDescription": "Wyldheart plays solo or with friends and supports drop-in co-op with difficulty that scales to the party. Compare co-op, crossplay, and how many players each mode supports."
+  },
+  "platforms": {
+    "overviewTitle": "Wyldheart Platforms: Steam, PS5, Xbox, Switch & System Requirements",
+    "overviewDescription": "Where you can play Wyldheart, what each platform version offers, how it runs on Steam Deck, and the PC system requirements to check before you buy."
+  },
+  "release": {
+    "overviewTitle": "Wyldheart Release Date, Beta & Roadmap Updates",
+    "overviewDescription": "Follow the Wyldheart release date, Early Access and beta windows, the Kickstarter campaign, roadmap milestones, and every patch note as the co-op RPG heads toward 1.0."
+  },
+  "community": {
+    "overviewTitle": "Wyldheart Community: Discord, Reddit & Player Resources",
+    "overviewDescription": "Find the Wyldheart Discord and Reddit communities, learn where players group up for co-op, and see how the community shares builds and patch discussion."
+  },
   "shared": {
     "wikiNavigation": "Wiki Navigation",
-    "activeCodes": "Active Codes",
     "updated": "Updated",
-    "viewAllCodes": "View all codes",
     "playOnSteam": "Play on Steam",
     "inThisSection": "In this section",
     "tableOfContents": "Table of Contents",
@@ -450,7 +482,12 @@
     "readMore": "Read more",
     "officialMedia": "Official media",
     "home": "Home",
-    "noGuidesAvailable": "No guides available yet. Check back soon!"
+    "noGuidesAvailable": "No guides available yet. Check back soon!",
+    "popularGuides": "Popular Guides",
+    "popularBeginner": "Beginner Guide",
+    "popularSkillTrees": "Skill Trees & Builds",
+    "popularAncestries": "Ancestries & Races",
+    "popularCoop": "Co-op & Multiplayer"
   },
   "footer": {
     "aboutTitle": "Wyldheart Wiki",
@@ -467,9 +504,9 @@
     "officialReddit": "Official Reddit",
     "officialX": "Official X",
     "beginnerGuide": "Beginner Guide",
-    "raceGuides": "Ancestries & Races",
-    "bossGuides": "Boss Guides",
-    "buildGuide": "Skills & Builds",
+    "characterGuides": "Characters & Ancestries",
+    "mechanicsGuides": "Combat & Crafting",
+    "modesGuides": "Multiplayer & Co-op",
     "privacyPolicy": "Privacy Policy",
     "termsOfService": "Terms of Service"
   }

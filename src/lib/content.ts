@@ -236,40 +236,67 @@ export interface NavGroup {
 }
 
 // 分组标题映射：slug → 人类可读标题（默认英文）
+// slug 集合必须与 src/config/navigation.ts 的 NAVIGATION_CONFIG 及 content/<locale>/ 子目录一致
 const GROUP_TITLES: Record<string, string> = {
-  bosses: "Bosses",
-  races: "Races",
-  maps: "Maps & Areas",
-  skills: "Skills",
-  codes: "Codes",
   guide: "Getting Started",
-  "tier-list": "Tier Lists",
+  characters: "Characters & Ancestries",
+  mechanics: "Combat & Crafting",
+  modes: "Multiplayer & Co-op",
+  platforms: "Platforms & Requirements",
+  release: "Release & Updates",
+  community: "Community",
 };
 
 // 日文分组标题映射
 const GROUP_TITLES_JA: Record<string, string> = {
-  bosses: "ボス",
-  races: "種族",
-  maps: "マップ & エリア",
-  skills: "スキル",
-  codes: "コード",
-  guide: "初心者ガイド",
-  "tier-list": "Tier List",
+  guide: "はじめに",
+  characters: "キャラクター",
+  mechanics: "戦闘とクラフト",
+  modes: "マルチプレイ",
+  platforms: "対応プラットフォーム",
+  release: "リリース情報",
+  community: "コミュニティ",
+};
+
+// 德文分组标题映射
+const GROUP_TITLES_DE: Record<string, string> = {
+  guide: "Erste Schritte",
+  characters: "Charaktere",
+  mechanics: "Kampf & Handwerk",
+  modes: "Mehrspieler & Koop",
+  platforms: "Plattformen & Anforderungen",
+  release: "Release & Updates",
+  community: "Community",
+};
+
+// 法文分组标题映射
+const GROUP_TITLES_FR: Record<string, string> = {
+  guide: "Pour commencer",
+  characters: "Personnages",
+  mechanics: "Combat & Artisanat",
+  modes: "Multijoueur & Coop",
+  platforms: "Plateformes & Configuration",
+  release: "Sortie & Mises à jour",
+  community: "Communauté",
 };
 
 // locale → 分组标题映射
 const GROUP_TITLES_BY_LOCALE: Record<string, Record<string, string>> = {
   ja: GROUP_TITLES_JA,
+  de: GROUP_TITLES_DE,
+  fr: GROUP_TITLES_FR,
 };
 
 // locale → "Overview" 翻译
 const OVERVIEW_LABEL_BY_LOCALE: Record<string, string> = {
   ja: "一覧",
+  de: "Übersicht",
+  fr: "Aperçu",
 };
 
 // 分组排序顺序
 const GROUP_ORDER: string[] = [
-  "guide", "races", "bosses", "maps", "skills", "codes", "tier-list",
+  "guide", "characters", "mechanics", "modes", "platforms", "release", "community",
 ];
 
 /**
