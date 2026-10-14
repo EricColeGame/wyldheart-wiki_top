@@ -19,18 +19,19 @@ export interface SiteConfig {
 }
 
 export const siteConfig: SiteConfig = {
-  name: "My Seafood Stand Wiki",
-  shortName: "My Seafood Stand",
-  logoText: "SS",
-  tagline: "Complete Guides, Codes, Recipes & Tier Lists",
-  description: "Your ultimate guide to My Seafood Stand on Roblox! Explore active working codes, seafood recipes, best upgrades, profit strategies, and progression guides.",
-  url: process.env.NEXT_PUBLIC_SITE_URL || "https://myseafoodstand.top",
-  supportEmail: `support@${new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://myseafoodstand.top").hostname.replace(/^www\./, "")}`,
-  gameUrl: "https://www.roblox.com/games/my-seafood-stand",
-  heroVideoId: "M8DvcwoFRrk", // Roblox My Seafood Stand codes & gameplay video
+  name: "Wyldheart Wiki",
+  shortName: "Wyldheart",
+  logoText: "W",
+  tagline: "Builds, Skills, Co-op Guides & Dungeon Walkthroughs",
+  description: "Fan-made Wyldheart wiki with co-op guides, character builds, skills, ancestries, weapons, crafting tips, dungeon walkthroughs, demo updates and release news.",
+  url: process.env.NEXT_PUBLIC_SITE_URL || "https://wyldheart-wiki.top",
+  supportEmail: `support@${new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://wyldheart-wiki.top").hostname.replace(/^www\./, "")}`,
+  gameUrl: "https://store.steampowered.com/app/3642910/Wyldheart/",
+  heroVideoId: "SGIl5UuRpxg", // Wyldheart | Official Reveal Trailer (DEMO OUT NOW!)
   social: {
-    discord: "https://discord.gg/roblox",
-    youtube: "https://www.youtube.com/@roblox",
+    discord: "https://discord.gg/wyldheart",
+    youtube: "https://www.youtube.com/@wyldheartgame",
+    twitter: "https://x.com/wyldheartgame",
   },
   locales: ["en", "es", "pt", "de", "fr"],
   defaultLocale: "en",
